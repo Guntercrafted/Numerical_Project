@@ -1,0 +1,51 @@
+h2 {
+    color: white;
+}
+
+span {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.ant-card-head {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.ant-table-tbody>tr>td {
+    border-bottom: 1px solid #e8e8e8;
+    transition: all 0.3s, border 0s;
+    transition-property: all, border;
+    transition-duration: 0.3s, 0s;
+    transition-timing-function: ease, ease;
+    transition-delay: 0s, 0s;
+    text-align: center;
+}
+
+.ant-table-thead>tr.ant-table-row-hover:not(.ant-table-expanded-row)>td,
+.ant-table-tbody>tr.ant-table-row-hover:not(.ant-table-expanded-row)>td,
+.ant-table-thead>tr:hover:not(.ant-table-expanded-row)>td,
+.ant-table-tbody>tr:hover:not(.ant-table-expanded-row)>td {
+    background: #63abbd;
+}
+.ant-table-thead > tr > th {
+    color: rgba(155, 155, 155, 0.85);
+    font-weight: bold;
+    text-align: center;
+    background: #fcc44d;
+    border-bottom: 1px solid #e8e8e8;
+}
+.ant-menu-dark.ant-menu-inline .ant-menu-item, .ant-menu-dark.ant-menu-inline .ant-menu-submenu-title {
+
+    width: 100%;
+    font-size: 16px;
+
+    
+}
+.ant-menu-dark.ant-menu-inline .ant-menu-item:hover {
+    background-color: #1890ff;
+    color: white;
+}
+
